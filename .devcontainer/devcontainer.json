@@ -1,0 +1,10 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0.204.11-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "nodeGypDependencies": true,
+      "version": "11",
+      "nvmVersion": "latest"
+    }
+  }
+}
