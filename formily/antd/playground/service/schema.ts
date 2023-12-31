@@ -6,10 +6,13 @@ import {
 import { message } from 'antd'
 
 export const saveSchema = (designer: Engine) => {
+  // Reading created form
+  let schema = JSON.stringify(transformToSchema(designer.getCurrentTree()))
   localStorage.setItem(
     'formily-schema',
-    JSON.stringify(transformToSchema(designer.getCurrentTree()))
+    schema
   )
+  console.log(schema)
   message.success('Save Success')
 }
 

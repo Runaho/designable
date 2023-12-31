@@ -69,14 +69,6 @@ import {
 setNpmCDNRegistry('//unpkg.com')
 
 GlobalRegistry.registerDesignerLocales({
-  'zh-CN': {
-    sources: {
-      Inputs: '输入控件',
-      Layouts: '布局组件',
-      Arrays: '自增组件',
-      Displays: '展示组件',
-    },
-  },
   'en-US': {
     sources: {
       Inputs: 'Inputs',
@@ -85,12 +77,12 @@ GlobalRegistry.registerDesignerLocales({
       Displays: 'Displays',
     },
   },
-  'ko-KR': {
+  'tr-TR': {
     sources: {
-      Inputs: '입력',
-      Layouts: '레이아웃',
-      Arrays: '배열',
-      Displays: '디스플레이',
+      Inputs: 'Girdiler',
+      Layouts: 'Düzenler',
+      Arrays: 'Diziler',
+      Displays: 'Ekranlar',
     },
   },
 })
